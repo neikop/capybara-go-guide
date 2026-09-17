@@ -11,7 +11,16 @@ Tier là khuyến nghị có điều kiện cho build, không phải bảng sứ
 
 ## Chạy local
 
-Không cần npm install hoặc dịch vụ backend. Dùng Python 3 để phục vụ các file tĩnh:
+Ứng dụng hiện tại dùng React + Vite, yêu cầu Node.js >=20.19 và pnpm 8.9.2:
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+```
+
+Source React nằm trong `src/`, tài nguyên tĩnh của app nằm trong `public/`. Phần chuyển guide sang React đang được cập nhật đồng thời; cần kiểm lại build sau khi hoàn tất.
+
+Để chạy riêng bản guide HTML offline, dùng Python 3:
 
 ```sh
 python3 -m http.server 8766 --bind 127.0.0.1 --directory outputs
@@ -23,12 +32,28 @@ Cũng có thể mở trực tiếp [outputs/CAPYBARA_GO_GUIDE.html](outputs/CAPY
 
 ## Cập nhật và build
 
+Build ứng dụng để deploy:
+
+```sh
+pnpm build
+```
+
+Kết quả nằm trong `dist/`, gồm app React và các file từ `public/`. Bản guide HTML offline trong `outputs/` có luồng build riêng:
+
 ```sh
 python3 work/capybara-guide/build_guide.py
 node --check work/capybara-guide/guide.js
 ```
 
-Python 3 dùng thư viện chuẩn. Node.js chỉ cần cho lệnh kiểm cú pháp JavaScript.
+Generator Python dùng thư viện chuẩn.
+
+## Deploy Vercel
+
+`vercel.json` cấu hình Vite, cài dependency bằng lockfile, build bằng `pnpm build` và phục vụ `dist/`. Các route ứng dụng như `/components` được rewrite về `index.html`; file tĩnh giữ URL riêng.
+
+Project `neikops-projects/capybara-go-guide` đã kết nối với [GitHub repo](https://github.com/neikop/capybara-go-guide). Push lên `main` kích hoạt production deployment; nhánh khác/PR dùng preview deployment theo Git Integration của Vercel.
+
+Trước khi push, chạy `pnpm build`. Chỉ code đã commit và push mới được Vercel triển khai. CLI lưu liên kết project trong `.vercel/` (không commit).
 
 | File | Vai trò |
 | --- | --- |
@@ -44,6 +69,12 @@ Python 3 dùng thư viện chuẩn. Node.js chỉ cần cho lệnh kiểm cú ph
 `CAPYBARA_GO_GUIDE.html` và `WHISPERER_SKILL_TIER_LIST.html` chứa cùng website để giữ đường dẫn cũ. `WHISPERER_SKILL_REFERENCE.html` là trang tra skill riêng. Commit cả nguồn và output sau khi build để bản tải sẵn luôn khớp nội dung.
 
 Chi tiết: [Hướng dẫn maintain](outputs/GUIDE_MAINTENANCE.md).
+
+## Bối cảnh để tiếp tục bảo trì
+
+Đọc [PROJECT_MEMORY.md](PROJECT_MEMORY.md) để nắm quyết định đã chốt, nguồn dữ liệu, các điểm dễ cập nhật sai và mức kiểm chứng. [AGENTS.md](AGENTS.md) là hướng dẫn ngắn dành cho agent làm việc trong repo.
+
+Checkout làm việc hiện tại: `/Users/neikop/Workings/Dev/capybara-go-guide`. Các bản trong workspace Codex cũ không còn là nơi chỉnh sửa chính.
 
 ## Nguồn
 

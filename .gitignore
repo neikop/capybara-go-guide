@@ -1,7 +1,10 @@
 .DS_Store
-__pycache__/
-*.py[cod]
-.venv/
 node_modules/
+dist/
+coverage/
+*.tsbuildinfo
 .env
 .env.*
+.vercel/
+!.env.example
+.vercel

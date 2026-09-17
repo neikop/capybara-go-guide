@@ -1,0 +1,6 @@
+dist
+node_modules
+pnpm-lock.yaml
+chakra-config.json
+public/docs
+docs/sources
