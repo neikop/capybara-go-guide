@@ -443,4 +443,4 @@ Whisperer • PvE có chọn skill • ưu tiên Story • dùng theo điều ki
 - [Skills tier list](https://meowdb.com/db/capybara-go/skills-tier-list#whisperer-elres-whisper-skill-tier-list)
 - [Whisperer guide](https://meowdb.com/db/capybara-go/whisperer-elres-ultimate-build-guide)
 
-Dữ liệu gốc: `work/capybara-guide/skills-source-2026-09-16.json`. Quy tắc tier: `work/capybara-guide/build_skill_tiers.py`. Khi cập nhật, kiểm lại description, điều kiện unlock và trạng thái account; sửa quy tắc rồi chạy script. Các tier là khuyến nghị biên tập, không phải kết quả đo damage trong tài khoản.
+Snapshot nguồn: `docs/sources/skills-source-2026-09-16.json`. Dữ liệu đang sử dụng trong ứng dụng: `src/views/Guide/data/skills.ts`; sửa tier/note tại đó. Bảng Markdown này giữ làm snapshot tham khảo ngày 16/09/2026. Các tier là khuyến nghị biên tập, không phải kết quả đo damage trên tài khoản.

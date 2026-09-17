@@ -4,7 +4,8 @@ import { DocsCard, SectionHeading } from '../shared'
 
 const statusFamilies = [
   {
-    description: 'Brand accent for selected states, active emphasis, and CTA styling.',
+    description:
+      'Capybara Guide uses a green primary palette for selected states, active emphasis, and actions in light and dark mode.',
     label: 'Primary',
     palette: {
       border: 'primary.border',

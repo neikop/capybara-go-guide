@@ -1,31 +1,35 @@
-# Hướng dẫn làm việc trong repo
+# Repository instructions — Capybara Go Guide
 
-## Bắt đầu
+## Before editing
 
-- Đọc [PROJECT_MEMORY.md](PROJECT_MEMORY.md) để nắm bối cảnh, quyết định đã chốt và các điểm dễ cập nhật sai. Đọc [outputs/GUIDE_MAINTENANCE.md](outputs/GUIDE_MAINTENANCE.md) khi sửa website/build.
-- Checkout làm việc của người dùng: `/Users/neikop/Workings/Dev/capybara-go-guide`. Các bản trong `Documents/Codex/.../new-chat` là bản cũ; không sửa hoặc copy ngược từ đó. Khi repo được clone sang máy khác, dùng checkout hiện tại.
-- Kiểm `git status --short --branch` trước khi sửa; giữ nguyên thay đổi có sẵn của người dùng. Chỉ commit/push khi yêu cầu hiện tại có phạm vi đó.
+- Read `README.md`, `DESIGN.md`, and `PROJECT_MEMORY.md`. These instructions incorporate the imported template's `AGENTS 2.md`.
+- Work in `/Users/neikop/Workings/Dev/capybara-go-guide` on this machine, or the current checkout on another machine. The old `Documents/Codex/.../new-chat` copies are obsolete.
+- Inspect `git status --short` and the nearest implementation; preserve unrelated user work and the index.
+- Search for an existing component, hook, token, or helper before adding one. Do not stage, unstage, commit, or push unless explicitly requested.
 
-## Nội dung và nguồn
+## Architecture and source ownership
 
-- Viết giải thích bằng tiếng Việt; giữ tên vật phẩm, skill và description tiếng Anh theo nguồn. Không tự diễn đạt lại description như thể đó là wording của game.
-- Guide ưu tiên người nạp nhẹ, Whisperer PvE trước; có so sánh PvP và các build khác. Tier skill hiện tại dành cho Whisperer PvE theo điều kiện, không phải tier mọi vũ khí hay mọi mode.
-- Khi khuyên chọn món: nêu lý do, điều kiện, giai đoạn và lựa chọn tạm nếu có cơ sở. Không suy pool từ màu hộp hoặc khuyên mua dựa trên CP/rarity đơn thuần.
-- Ghi nguồn và ngày đối chiếu cho dữ kiện mới; phân biệt ngày đọc với patch/ngày cập nhật nguồn. Giữ rõ điểm chưa kiểm chứng hoặc mâu thuẫn; không tự điền giá, tỷ lệ, pity, lịch banner/event.
-- Bối cảnh tài khoản trong tài liệu là lịch sử trao đổi, không phải số liệu tài khoản hiện tại. Không suy số dư còn lại hay tiến độ mới.
+- This is a Vite/React/TypeScript app. Use pnpm 8.9.2, Chakra primitives, semantic tokens, and shared UI. Follow `DESIGN.md` for naming, props, source hygiene, React state and TypeScript rules.
+- Capybara feature code belongs in `src/views/Guide`. `components/ui` remains domain-neutral; it must not import feature types or data.
+- Edit guide content in `data/content.ts`, skill wording/tier/notes in `data/skills.ts`, references in `data/sources.ts` under that feature.
+- Use React Router URL state for navigation and shareable skill filters; nearest component/hook for local state; React Hook Form for forms. Keep external lifecycle/storage synchronization in effects with cleanup.
+- Do not inject the old HTML into React, render imperative HTML strings, or restore the old generator/server pipeline. `public/docs` and `docs/sources` are reference documents/snapshots, not runtime UI sources.
+- Keep one implementation. Remove replaced code, stale imports, dead exports, demos, debug output, and temporary scaffolding.
+- Do not manually edit `dist/`, `node_modules/`, generated Chakra typings, or `pnpm-lock.yaml`.
 
-## Sửa đúng file
+## Editorial contract
 
-- Nội dung website: `work/capybara-guide/guide-content.json`.
-- UI: `guide-template.html`, `guide.css`, `guide.js` trong cùng thư mục.
-- Wording skill: snapshot `skills-source-2026-09-16.json`; tier/ghi chú: `build_skill_tiers.py`.
-- Chạy `python3 work/capybara-guide/build_guide.py` để cập nhật outputs. Không sửa trực tiếp các HTML sinh tự động hoặc `WHISPERER_SKILL_TIER_LIST.{json,md}`.
-- Không phải mọi file trong `outputs/` đều được sinh tự động: `CAPYBARA_GO_MEMORY.md`, `WHISPERER_14_NGAY_DAU.md`, `GUIDE_MAINTENANCE.md` là tài liệu biên tập. Riêng chỉ mục nguồn trong `CAPYBARA_GO_MEMORY.md` còn là đầu vào của build.
-- Giữ trang HTML dùng offline, đường dẫn HTML cũ và hash mục lục; tránh thêm framework/backend chỉ để sửa nội dung.
+- Explanations are Vietnamese; preserve English skill/item names and exact English descriptions from source.
+- Skill tiers are conditional recommendations for Whisperer PvE, not universal rankings. Distinguish skill/gem, active/deploy, level/stars/awakening, and description variants.
+- Explain reasons, conditions, and supported temporary alternatives. Do not invent selector pools, prices, pity, drop rates or current event schedules.
+- Record source/date and preserve unresolved contradictions. A read date is not a game patch date.
+- Account day/chapter/spending in the guide is historical. Do not infer current progress or remaining balance.
 
-## Kiểm tra và bàn giao
+## Verification and handoff
 
-- Sửa nội dung/UI: build và kiểm `node --check work/capybara-guide/guide.js`; rà diff của nguồn lẫn outputs. Thay đổi chỉ ở tài liệu repo không cần build lại website.
-- Sửa UI/hành vi: kiểm trình duyệt desktop/mobile và đúng tương tác bị ảnh hưởng. Tách kết quả build/static khỏi browser QA và dữ kiện game đã kiểm live.
-- Trước khi xem localhost, xác minh server đang phục vụ `outputs/` của checkout này. URL cũ giống nhau không chứng minh đó là file mới.
-- Khi quyết định hoặc cấu trúc thay đổi, cập nhật `PROJECT_MEMORY.md`; tránh chép lại toàn bộ kiến thức game vào đó. Chi tiết game để ở nội dung guide và tài liệu nguồn.
+- Theme/token/recipe changes: run `pnpm chakra-typegen` first; keep `/components` examples and theme docs consistent.
+- Run `pnpm check` before handoff. Fix rather than weaken format, lint, contrast, unit-test, TypeScript or build gates; pre-commit uses the same command.
+- UI/state changes need relevant browser checks: desktop/mobile, light/dark, routing/filter URLs, search, checklist persistence, budget, and print view as affected.
+- Confirm localhost serves this checkout via Vite. Do not start a second server on a port owned by another task.
+- Separate static/unit verification, browser QA, print/PDF rendering, and live game evidence. Report checks that could not run and why.
+- Update `PROJECT_MEMORY.md` when architecture, source ownership, or significant decisions change. Keep detailed game data in the guide and sources rather than duplicating it in project memory.

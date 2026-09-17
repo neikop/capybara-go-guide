@@ -56,8 +56,8 @@ export function InputSection() {
               <Input
                 aria-describedby="guide-input-invalid-message"
                 aria-invalid="true"
+                defaultValue="!"
                 id="guide-input-invalid"
-                value="!"
               />
             </FormField>
 

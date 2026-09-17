@@ -1,0 +1,27 @@
+@media print {
+  @page {
+    margin: 14mm;
+  }
+  .print-guide {
+    display: block;
+    padding: 0;
+    .print-controls,
+    .guide-mobile-table {
+      display: none;
+    }
+    .guide-desktop-table {
+      display: block;
+      overflow: visible;
+    }
+    > section {
+      break-before: page;
+      padding-block: 1rem;
+    }
+    tr {
+      break-inside: avoid;
+    }
+    td {
+      min-width: 0;
+    }
+  }
+}

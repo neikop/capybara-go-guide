@@ -4,5 +4,22 @@
   "installCommand": "npx --yes pnpm@8.9.2 install --frozen-lockfile",
   "buildCommand": "npx --yes pnpm@8.9.2 run build",
   "outputDirectory": "dist",
-  "rewrites": [{ "source": "/((?!assets/|.*\\.[^/]+$).*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/CAPYBARA_GO_GUIDE.html",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/WHISPERER_SKILL_TIER_LIST.html",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/WHISPERER_SKILL_REFERENCE.html",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!assets/|.*\\.[^/]+$).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
