@@ -53,6 +53,8 @@ Generator Python dùng thư viện chuẩn.
 
 Project `neikops-projects/capybara-go-guide` đã kết nối với [GitHub repo](https://github.com/neikop/capybara-go-guide). Push lên `main` kích hoạt production deployment; nhánh khác/PR dùng preview deployment theo Git Integration của Vercel.
 
+Website production: https://capybara-go-guide.vercel.app.
+
 Trước khi push, chạy `pnpm build`. Chỉ code đã commit và push mới được Vercel triển khai. CLI lưu liên kết project trong `.vercel/` (không commit).
 
 | File | Vai trò |
