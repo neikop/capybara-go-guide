@@ -49,7 +49,7 @@ Generator Python dùng thư viện chuẩn.
 
 ## Deploy Vercel
 
-`vercel.json` cấu hình Vite, cài dependency bằng lockfile, build bằng `pnpm build` và phục vụ `dist/`. Các route ứng dụng như `/components` được rewrite về `index.html`; file tĩnh giữ URL riêng.
+`vercel.json` cấu hình Vite, cài pnpm đúng phiên bản 8.9.2 rồi cài dependency bằng lockfile, build bằng `pnpm build` và phục vụ `dist/`. Các route ứng dụng như `/components` được rewrite về `index.html`; file tĩnh giữ URL riêng.
 
 Project `neikops-projects/capybara-go-guide` đã kết nối với [GitHub repo](https://github.com/neikop/capybara-go-guide). Push lên `main` kích hoạt production deployment; nhánh khác/PR dùng preview deployment theo Git Integration của Vercel.
 
