@@ -1,0 +1,1774 @@
+{
+  "source": "https://meowdb.com/db/capybara-go/capybara-go-skills-database",
+  "checked": "2026-09-16",
+  "database_rows_reviewed": 1133,
+  "descriptions": [
+    [
+      "ATK",
+      "ATK↑.",
+      "—"
+    ],
+    [
+      "HP",
+      "Max HP↑",
+      "—"
+    ],
+    [
+      "DEF",
+      "DEF↑.",
+      "—"
+    ],
+    [
+      "Heavy Attack (Heavy Blow)",
+      "Basic Attack Crit Rate↑.",
+      "—"
+    ],
+    [
+      "Counter Rate",
+      "Counter Rate↑.",
+      "—"
+    ],
+    [
+      "Dodge",
+      "Dodge↑.",
+      "—"
+    ],
+    [
+      "Combo",
+      "Basic Attack Combo Rate↑.",
+      "—"
+    ],
+    [
+      "Lifesteal",
+      "Attacks have a chance to Lifesteal.",
+      "—"
+    ],
+    [
+      "Resilience",
+      "Chance to restore HP at the end of action..",
+      "—"
+    ],
+    [
+      "Poisoned Weapon",
+      "Attacks have a chance to Poison enemies.",
+      "—"
+    ],
+    [
+      "Rage Heal",
+      "Using Rage Skill restores a bit of HP.",
+      "—"
+    ],
+    [
+      "Hardened",
+      "DMG Reduction↑.",
+      "—"
+    ],
+    [
+      "Swift Revenge",
+      "Round 1 Counter Rate +100%.",
+      "—"
+    ],
+    [
+      "Enhanced Basic Attack",
+      "Basic Attack DMG↑.",
+      "—"
+    ],
+    [
+      "Enhanced Rage Skill",
+      "Rage Skill DMG↑.",
+      "—"
+    ],
+    [
+      "Enhanced Combo",
+      "Combo DMG↑.",
+      "—"
+    ],
+    [
+      "Enhanced Counterattack",
+      "Counter DMG↑.",
+      "Skill Locked"
+    ],
+    [
+      "Enhanced Recovery",
+      "HP Recovery ↑.",
+      "—"
+    ],
+    [
+      "Battle Cry",
+      "When battle starts, Rage +50.",
+      "—"
+    ],
+    [
+      "Basic Attack Shield",
+      "Basic Attacks have a chance to gain Shield.",
+      "—"
+    ],
+    [
+      "Rage Shield",
+      "Gain Shield when unleashing Rage Skill.",
+      "—"
+    ],
+    [
+      "Critical Frenzy",
+      "At <50% HP, ATK, DEF↑↑.",
+      "—"
+    ],
+    [
+      "Critical Recovery",
+      "At <30% HP for the 1st time, restore 10% HP each round for 3 rounds.",
+      "—"
+    ],
+    [
+      "Doubled ATK",
+      "For 1 round after battle starts, ATK doubles.",
+      "—"
+    ],
+    [
+      "Rage Proficiency",
+      "Basic Attack additionally restores 25 Rage. Basic Attack DMG↓↓.",
+      "—"
+    ],
+    [
+      "Critical Shield",
+      "At <30% HP for the 1st time, gain Shield.",
+      "—"
+    ],
+    [
+      "Critical Dodge",
+      "At <30% HP, Dodge↑↑.",
+      "—"
+    ],
+    [
+      "Shrink Spell",
+      "Attacks have a chance to shrink enemies.",
+      "—"
+    ],
+    [
+      "Alchemist",
+      "The Poison effect's Healing Reduction increases to 60%, and targets affected by Poison take +20% damage.",
+      "—"
+    ],
+    [
+      "Tyrant",
+      "ATK ↑↑↑↑. Max HP ↓↓.",
+      "—"
+    ],
+    [
+      "Berserker",
+      "Basic Attack DMG↑↑↑↑. Skill DMG↓↓↓.",
+      "—"
+    ],
+    [
+      "Spell Master",
+      "Skill DMG↑↑↑↑. Basic Attack DMG↓↓↓.",
+      "—"
+    ],
+    [
+      "Royal Crown",
+      "ATK, DEF, HP ↑↑.",
+      "—"
+    ],
+    [
+      "Combo Mastery",
+      "Combo Rate ↑↑, ATK ↑ during combos, stackable, lasts until end of battle.",
+      "—"
+    ],
+    [
+      "Counter Mastery",
+      "Counter rate ↑↑, Damage Reduction on counter ↑. Can stack up to 5 times and lasts until the end of the battle.",
+      "—"
+    ],
+    [
+      "CRIT Mastery",
+      "Basic Attack Crit Rate↑↑, Crit DMG↑ on Crits, stackable.",
+      "—"
+    ],
+    [
+      "Rage Mastery",
+      "Rage Skill DMG +100%. Each time Rage Skill is used, -25%.",
+      "—"
+    ],
+    [
+      "Combo Bleeding",
+      "Each normal attack and combo has a 30% chance to trigger 1 stack of Bleed.",
+      "—"
+    ],
+    [
+      "Bleeding Mastery",
+      "Bleed damage increased.",
+      "—"
+    ],
+    [
+      "Counter Shield",
+      "Counterattack Rate ↑, gain a shield after counterattack.",
+      "—"
+    ],
+    [
+      "Oath",
+      "At the start of battle, consumes 35% of current HP and converts it into a corresponding Shield.",
+      "—"
+    ],
+    [
+      "War Veteran",
+      "Each round, ATK increases.",
+      "—"
+    ],
+    [
+      "Revive",
+      "Revive after your first death. Effective only once.",
+      "—"
+    ],
+    [
+      "Rage Combo",
+      "Rage Skill can be cast 2 times. DMG↓.",
+      "—"
+    ],
+    [
+      "Combo Spirit",
+      "Combo Rate↑↑, can combo up to 2 times.DMG↓.",
+      "—"
+    ],
+    [
+      "Spawn of Evil",
+      "At <50% HP for the 1st time, gain protection of Spawn of Evil till the end of battle.",
+      "—"
+    ],
+    [
+      "Angel Power",
+      "When battle starts, gain protection of Angel for 6 rounds.",
+      "—"
+    ],
+    [
+      "Indestructible",
+      "DMG Reduction↑↑↑, DMG↓↓↓.",
+      "—"
+    ],
+    [
+      "Battle-Hardened",
+      "Each round, DMG Reduction↑.",
+      "—"
+    ],
+    [
+      "Super HP",
+      "HP↑↑↑↑↑, and HP is fully restored.",
+      "—"
+    ],
+    [
+      "Counter Soul",
+      "Counter Rate↑↑. When HP <50%, restore HP upon counterattack.",
+      "—"
+    ],
+    [
+      "Trinity Force",
+      "Crit Rate↑, Combo Rate↑, Counter Rate↑.",
+      "—"
+    ],
+    [
+      "Firecracker",
+      "In Round 1, launch a firecracker to Stun enemies.",
+      "—"
+    ],
+    [
+      "Glass Cannon",
+      "When HP <30%, DMG↑↑↑↑, received DMG↑↑↑↑, and enemy kills restore HP.",
+      "—"
+    ],
+    [
+      "Last Stand",
+      "For every 10% HP lost, Lifesteal +3% and ATK +3%.",
+      "—"
+    ],
+    [
+      "Combo X2",
+      "At Combo X2, deals 1 extra hit with 200% normal attack damage.",
+      "—"
+    ],
+    [
+      "Combo ×3",
+      "When Combo X3 triggers, deals 1 extra instance of normal attack damage equal to 2% of target’s max HP, up to 20 times the hero’s ATK.",
+      "—"
+    ],
+    [
+      "Round Bolt (Turn Lightning)",
+      "Trigger 1 Bolt per round.",
+      "—"
+    ],
+    [
+      "Rage Bolt",
+      "Trigger 2 Bolts upon Rage Skill activation.",
+      "—"
+    ],
+    [
+      "Lightning From Above",
+      "When battle starts, cast 3 Bolts.",
+      "—"
+    ],
+    [
+      "Thunderbolt",
+      "At round 5, cast 5 Bolts.",
+      "—"
+    ],
+    [
+      "Static Shield",
+      "Shield turns into Static Shield, trigger 1 Bolt when attacked.",
+      "—"
+    ],
+    [
+      "Bolt Mastery",
+      "Bolt DMG +60%. DMG -10%.",
+      "Skill Locked"
+    ],
+    [
+      "Shock Discharge",
+      "Reduce enemy Rage by 50 upon triggering 9 Bolts.",
+      "Skill Locked"
+    ],
+    [
+      "Thunderstorm",
+      "Bolt has a chance to trigger Thunderstorm when it hits a target.",
+      "Skill Locked"
+    ],
+    [
+      "Multiple Bolt",
+      "Bolts can trigger an additional 1 time. DMG -10%",
+      "Skill Locked"
+    ],
+    [
+      "Super Bolt",
+      "Bolt has a chance to become Super Bolt.",
+      "Skill Locked"
+    ],
+    [
+      "Basic Attack Bolt",
+      "Basic Attacks have a chance to trigger 2 Bolts.",
+      "—"
+    ],
+    [
+      "Lightning Charge",
+      "Each time Lightning is cast 1 time, Lightning damage increases by 8%. This stacking effect resets once every 3 turns.",
+      "Skill Locked"
+    ],
+    [
+      "Round Fire Strike",
+      "Each round, trigger 1 Fire Strike with chance to Burn.",
+      "—"
+    ],
+    [
+      "Rage Fire Strike",
+      "Rage Skill releases Fire Strike with chance to Burn.",
+      "—"
+    ],
+    [
+      "Flames From Above",
+      "When battle starts, trigger Fire Strike with chance to Burn enemies.",
+      "—"
+    ],
+    [
+      "Fire Guard",
+      "When attacked, chance to trigger Fire Strike that may Burn enemies.",
+      "—"
+    ],
+    [
+      "Ghostly Fuse",
+      "DMG to Burning targets ↑.",
+      "Skill Locked"
+    ],
+    [
+      "Burn Mastery",
+      "Burn DMG +60%. DMG -10%.",
+      "Skill Locked"
+    ],
+    [
+      "Triple Burn",
+      "Each Fire Strike triggers 3 stacks of Burn.",
+      "Skill Locked"
+    ],
+    [
+      "Magical Flames",
+      "Fire Strike chance to trigger Burn↑.",
+      "Skill Locked"
+    ],
+    [
+      "Pyromancer",
+      "Burn has unlimited stack count but reduced DMG.",
+      "Skill Locked"
+    ],
+    [
+      "Heat Explosion",
+      "Burn damage greatly increased, max stack limit -5.",
+      "Skill Locked"
+    ],
+    [
+      "Basic Attack Icy Spikes",
+      "Basic Attacks have a chance to trigger Icy Spikes with low chance to Freeze enemies.",
+      "—"
+    ],
+    [
+      "Rage Icy Spikes",
+      "Rage Skills also trigger Icy Spikes with low chance to Freeze enemies.",
+      "—"
+    ],
+    [
+      "Frostbite",
+      "Icy Spikes cause enemy ATK↓.",
+      "Skill Locked"
+    ],
+    [
+      "Killing Freeze",
+      "Icy Spikes cause enemy's damage taken ↑.",
+      "Skill Locked"
+    ],
+    [
+      "Frozen Touch",
+      "Icy Spike triggers once every 2 rounds. All Icy Spikes have a low chance to execute weak enemies.",
+      "—"
+    ],
+    [
+      "Ice Storm",
+      "Icy Spikes have chance to generate Ice Storm on hit.",
+      "—"
+    ],
+    [
+      "Deadly Spikes",
+      "Icy Spike Freeze chance up.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger",
+      "Fires 1 Dagger every 2 rounds.",
+      "—"
+    ],
+    [
+      "Poison Dagger",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to Poison enemies.",
+      "—"
+    ],
+    [
+      "Rage Dagger",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to increase Rage.",
+      "—"
+    ],
+    [
+      "Healing Dagger",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to restore HP.",
+      "—"
+    ],
+    [
+      "Bolt Dagger",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to trigger Bolt.",
+      "—"
+    ],
+    [
+      "Fire Dagger",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to trigger Fire Strike.",
+      "—"
+    ],
+    [
+      "Dagger Mastery",
+      "Dagger DMG +60%. DMG -10%.",
+      "Skill Locked"
+    ],
+    [
+      "Smelly Dagger",
+      "Dagger upgrades to Poopoo. DMG ↑↑↑↑↑, but can no longer trigger other effects.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Proficiency",
+      "Dagger DMG increases within the same round.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Cooldown",
+      "All Dagger CD -1 round. Min: 1 round."
+    ],
+    [
+      "Combo Dagger",
+      "Fires 2 Daggers in a row."
+    ],
+    [
+      "Basic Attack Sword Chi (Basic Attack Sword Aura)",
+      "Basic Attacks have a chance to trigger Sword Chi."
+    ],
+    [
+      "Rage Attack Sword Chi",
+      "Using Rage Skills also triggers Sword Chi."
+    ],
+    [
+      "Recovery Sword Chi",
+      "For each enemy hit by Sword Chi, restore HP."
+    ],
+    [
+      "Super Sword Chi",
+      "Sword Chi becomes Super Sword Chi."
+    ],
+    [
+      "Sword Aura Mastery",
+      "Sword Qi damage +60%, damage -10%."
+    ],
+    [
+      "Sword Rain",
+      "Every 5 triggers of Sword Aura, unleash 1 Sword Rain."
+    ],
+    [
+      "Sword Rain Mastery",
+      "Sword Rain damage increased, and deals additional Sword Aura damage equal to 3% of the target’s max HP, capped at 30x the hero’s ATK."
+    ],
+    [
+      "Arcane Skill: Tempest",
+      "Sword Rain damage increased, and reduces enemy ATK by -20%, increases their Sword Aura damage taken by +30% for 1 turn."
+    ],
+    [
+      "Start Light Spear",
+      "At the start of the battle, summon 3 Light Spears."
+    ],
+    [
+      "Round Light Spear (Turn Light Spear)",
+      "Summon 1 Light Spear each round."
+    ],
+    [
+      "Counter Light Spear",
+      "Summon 1 Light Spear on Counter."
+    ],
+    [
+      "Rage Light Spear",
+      "Summon 2 Light Spears upon using Rage Skill."
+    ],
+    [
+      "Light Spear Flame Wave",
+      "Light Spear Damage ↑↑, triggers Flame Wave."
+    ],
+    [
+      "Light Spear Mastery",
+      "Light Spear Damage+60%.Damage-10%."
+    ],
+    [
+      "Light Spear Shield",
+      "Light Spear has a chance to gain a shield."
+    ],
+    [
+      "Demonic Spear",
+      "Light Spear becomes a Magic Gun, adding counter damage of 5% of the hero's max HP."
+    ],
+    [
+      "Light Spear Quake",
+      "After every 2 counterattacks, the next light spear summon triggers Earthquake"
+    ],
+    [
+      "Earthquake Stun",
+      "Earthquake has a 15% chance to Stun the target."
+    ],
+    [
+      "Holy Spear Decree",
+      "Each time light spear is triggered 1 time, ATK +8%, up to 5 times per turn, lasts until battle ends"
+    ],
+    [
+      "ATK+",
+      "ATK↑↑."
+    ],
+    [
+      "HP+",
+      "HP↑↑."
+    ],
+    [
+      "DEF+",
+      "DEF↑↑."
+    ],
+    [
+      "Heavy Attack+ (Heavy Blow+)",
+      "Basic Attack Crit Rate↑↑."
+    ],
+    [
+      "Counter Move+",
+      "Counter Rate↑↑."
+    ],
+    [
+      "Dodge+",
+      "Dodge↑↑."
+    ],
+    [
+      "Combo+",
+      "Basic Attack Combo Rate↑↑."
+    ],
+    [
+      "Lifesteal+",
+      "Attacks have a chance to Lifesteal."
+    ],
+    [
+      "Tenacity+",
+      "Chance to restore HP at the end of action.."
+    ],
+    [
+      "Poisoned Weapon+",
+      "ATK causes enemies to gain 2 stacks of poison."
+    ],
+    [
+      "Rage Heal+",
+      "Restore HP when unleashing Rage Skill."
+    ],
+    [
+      "Hardened+",
+      "DMG Reduction↑↑."
+    ],
+    [
+      "Swift Revenge+",
+      "For the first 2 rounds, Counter Rate +100%."
+    ],
+    [
+      "Enhanced Basic Attack+",
+      "Basic Attack DMG↑↑."
+    ],
+    [
+      "Enhanced Rage Skill+",
+      "Rage Skill DMG↑↑."
+    ],
+    [
+      "Combo Enhance+",
+      "Combo DMG↑↑."
+    ],
+    [
+      "Enhanced Counterattack+",
+      "Counter DMG ↑↑."
+    ],
+    [
+      "Enhanced Recovery+",
+      "HP Recovery effect↑↑."
+    ],
+    [
+      "Battle Cry+",
+      "When battle starts, +100 Rage."
+    ],
+    [
+      "Basic Attack Shield+",
+      "Basic Attacks have a chance to gain Shield."
+    ],
+    [
+      "Rage Shield+",
+      "Gain Shield when unleashing Rage Skill."
+    ],
+    [
+      "Critical Frenzy+",
+      "At <50% HP, ATK, DEF↑↑↑."
+    ],
+    [
+      "Critical Recovery+",
+      "At <30% HP for the 1st time, heal 15% HP each round for 3 rounds."
+    ],
+    [
+      "Doubled ATK+",
+      "For 2 rounds after battle starts, ATK doubles."
+    ],
+    [
+      "Rage Proficiency+",
+      "Basic Attacks restore extra Rage."
+    ],
+    [
+      "Critical Shield+",
+      "At <30% HP for the 1st time, gain Shield."
+    ],
+    [
+      "Critical Dodge+",
+      "When HP drops to < 30%, your Dodge Rate greatly increases."
+    ],
+    [
+      "Shrink Spell+",
+      "Attacks have a chance to shrink enemies."
+    ],
+    [
+      "Alchemist+",
+      "The Poison effect's Healing Reduction increases to 90%, and targets affected by Poison take +30% damage."
+    ],
+    [
+      "Tyrant+",
+      "ATK↑↑↑↑↑. Max HP↓↓↓."
+    ],
+    [
+      "Berserker+",
+      "Basic Attack DMG↑↑↑↑. Skill DMG↓↓↓."
+    ],
+    [
+      "Spell Master+",
+      "Skill DMG↑↑↑↑. Basic Attack DMG↓↓↓."
+    ],
+    [
+      "Royal Crown+",
+      "ATK, DEF, HP↑↑↑."
+    ],
+    [
+      "Combo Mastery+",
+      "Combo Rate↑↑, ATK↑↑ during combos, stackable, lasts until end of battle."
+    ],
+    [
+      "Counter Mastery+",
+      "Counter rate ↑↑, Damage Reduction on counter ↑↑. Can stack up to 5 layers and lasts until the end of the battle."
+    ],
+    [
+      "CRIT Mastery+",
+      "Basic Attack Crit Rate↑↑, Crit DMG↑↑ on Crits, stackable."
+    ],
+    [
+      "Rage Mastery+",
+      "Rage Skill DMG +150%. Each time Rage Skill is used, -30%."
+    ],
+    [
+      "Counter Shield+",
+      "Counterattack Rate ↑↑, gain a shield after counterattack."
+    ],
+    [
+      "Round Bolt+ (Turn Lightning+)",
+      "Trigger 2 Bolts per round."
+    ],
+    [
+      "Rage Bolt+",
+      "Using Rage Skill also triggers 3 Bolts."
+    ],
+    [
+      "Lightning From Above+",
+      "When battle starts, cast 5 Bolts."
+    ],
+    [
+      "Thunderbolt+",
+      "Starting from round 5, cast 5 Bolts per round."
+    ],
+    [
+      "Static Shield+",
+      "Shield turns into Static Shield, trigger 2 Bolts when attacked."
+    ],
+    [
+      "Bolt Mastery+",
+      "Bolt DMG +90%. DMG -15%."
+    ],
+    [
+      "Shock Discharge+",
+      "Reduce enemy Rage by 50 upon triggering 7 Bolts."
+    ],
+    [
+      "Thunderstorm+",
+      "Bolt has a chance to trigger Thunderstorm when it hits a target."
+    ],
+    [
+      "Multiple Bolt+",
+      "Bolts +2.DMG -15%."
+    ],
+    [
+      "Basic Attack Bolt+",
+      "Basic Attacks have a higher chance to trigger 2 Bolts."
+    ],
+    [
+      "Lightning Charge+",
+      "Each time Lightning is cast 1 time, Lightning damage increases by 12%. This stacking effect resets once every 3 turns."
+    ],
+    [
+      "Round Fire Strike+",
+      "Triggers 2 Flame Waves each turn, which have a chance to burn enemies."
+    ],
+    [
+      "Fire Guard+",
+      "When attacked, chance to trigger Fire Strike that may Burn enemies."
+    ],
+    [
+      "Ghostly Fuse+",
+      "DMG to Burning targets↑↑."
+    ],
+    [
+      "Burn Mastery+",
+      "Burn DMG +90%. DMG -15%."
+    ],
+    [
+      "Multi Burn+",
+      "Each Fire Strike triggers 4 stacks of Burn."
+    ],
+    [
+      "Magical Flames+",
+      "Fire Strike chance to trigger Burn↑↑."
+    ],
+    [
+      "Basic Attack Icy Spikes+",
+      "Basic Attacks have a chance to trigger Icy Spikes with low chance to Freeze enemies."
+    ],
+    [
+      "Frostbite+",
+      "Icy Spikes cause enemy ATK↓↓."
+    ],
+    [
+      "Killing Freeze+",
+      "Icy Spikes cause enemy's damage taken ↑."
+    ],
+    [
+      "Frozen Touch+",
+      "Icy Spike triggers once every 2 rounds, with a chance to execute weak enemies."
+    ],
+    [
+      "Dagger+",
+      "Shoots 2 daggers every 2 rounds."
+    ],
+    [
+      "Poison Dagger+",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to Poison enemies."
+    ],
+    [
+      "Rage Dagger+",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to increase Rage."
+    ],
+    [
+      "Healing Dagger+",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to restore HP."
+    ],
+    [
+      "Bolt Dagger+",
+      "Every 2 rounds, fire 1 Dagger. All Daggers have a chance to triggerBolt."
+    ],
+    [
+      "Fire Dagger+",
+      "Every 2 rounds, fire 1 Fire Dagger. All Daggers have a chance to trigger Fire Strike."
+    ],
+    [
+      "Dagger Mastery+",
+      "Dagger DMG +90%. DMG -15%."
+    ],
+    [
+      "Smelly Dagger+",
+      "Dagger upgrades to Poopoo. DMG ↑↑↑↑↑, but can no longer trigger other effects."
+    ],
+    [
+      "Dagger Proficiency+",
+      "Dagger DMG increases within the same round."
+    ],
+    [
+      "Basic Attack Sword Chi+ (Basic Attack Sword Aura+)",
+      "Basic Attacks have a chance to trigger Sword Chi."
+    ],
+    [
+      "Recovery Sword Chi+",
+      "For each enemy hit by Sword Chi, restore HP."
+    ],
+    [
+      "Sword Aura Mastery+",
+      "Sword Qi damage +90%, damage -15%."
+    ],
+    [
+      "Start Light Spear+",
+      "At the start of the battle, summon 5 Light Spears."
+    ],
+    [
+      "Round Light Spear+ (Turn Light Spear+)",
+      "Summon 2 Light Spears each round."
+    ],
+    [
+      "Counter Light Spear+",
+      "Summon 2 Light Spears on Counter."
+    ],
+    [
+      "Rage Light Spear +",
+      "Summon 3 Light Spears upon using Rage Skill."
+    ],
+    [
+      "Light Spear Flame Wave+",
+      "Light Spear DMG ↑↑↑ and triggers Flame Wave."
+    ],
+    [
+      "Light Spear Mastery+",
+      "Light Spear DMG+90%. DMG-15%."
+    ],
+    [
+      "Light Spear Shield+",
+      "Light Spear has a chance to gain a shield."
+    ],
+    [
+      "Holy Spear Decree+",
+      "Each time light spear is triggered 1 time, ATK +12%, up to 5 times per turn, lasts until battle ends"
+    ],
+    [
+      "Huge ATK",
+      "ATK↑↑↑"
+    ],
+    [
+      "Huge HP",
+      "Max HP↑↑↑"
+    ],
+    [
+      "Huge DEF",
+      "DEF↑↑↑"
+    ],
+    [
+      "Super ATK",
+      "ATK↑↑↑↑↑"
+    ],
+    [
+      "Super HP",
+      "Max HP↑↑↑↑↑ and restore full Max HP."
+    ],
+    [
+      "Super DEF",
+      "DEF↑↑↑↑↑"
+    ],
+    [
+      "Hardened",
+      "In-battle Damage Reduction +5%."
+    ],
+    [
+      "Enhanced Basic Attack",
+      "In-battle Normal Attack Damage +20%."
+    ],
+    [
+      "Enhanced Rage Skill",
+      "In-battle Rage Skill Damage +25%."
+    ],
+    [
+      "Combo Enhancement",
+      "In-battle Combo Damage +20%."
+    ],
+    [
+      "Counterattack Enhancement",
+      "In-battle Counterattack Damage +20%."
+    ],
+    [
+      "Rage Proficiency",
+      "Normal attacks additionally restore 25 Rage. In-battle Normal Attack Damage -20%."
+    ],
+    [
+      "Alchemist",
+      "The Poison effect's Healing Reduction increases to 60%, and in-battle damage to targets affected by Poison is increased by +15%."
+    ],
+    [
+      "Berserker",
+      "In-battle Normal Attack Damage +50%. In-battle Skill Damage -40%."
+    ],
+    [
+      "Spell Master",
+      "In-battle Skill Damage +50%. In-battle Normal Attack Damage -40%."
+    ],
+    [
+      "Counter Mastery",
+      "Counter +15%, each counter increases self +2% in-battle damage reduction, up to 5 stacks.",
+      "—"
+    ],
+    [
+      "Rage Mastery",
+      "In-battle Rage Skill Damage +80%. Each use reduces Rage Skill Damage -20%, down to 0%.",
+      "—"
+    ],
+    [
+      "Combo Bleeding",
+      "Each normal attack and combo has a 50% chance to trigger 1 stack of Bleed.",
+      "—"
+    ],
+    [
+      "Bleeding Mastery",
+      "Bleed in-battle damage +30%.",
+      "—"
+    ],
+    [
+      "Oath",
+      "At battle start, consume 50% current HP and convert to corresponding Shield.",
+      "—"
+    ],
+    [
+      "Rage Combo",
+      "Rage Skill can be used 2 times. In-battle damage dealt is reduced by 8%.",
+      "—"
+    ],
+    [
+      "Combo Spirit",
+      "Combo rate increases 20%, can combo up to 2 times.",
+      "—"
+    ],
+    [
+      "Indestructible",
+      "In-battle damage reduction +10%, in-battle damage -10%.",
+      "—"
+    ],
+    [
+      "Battle-Hardened",
+      "Each turn, in-battle damage reduction +4%, max 5 stacks.",
+      "—"
+    ],
+    [
+      "Firecracker",
+      "In the 1st round, launches firecrackers to Stun the enemy. If Stun is immune, instead reduces enemy ATK by -60% for 2 turns.",
+      "—"
+    ],
+    [
+      "Glass Cannon",
+      "When HP is >40%, in-battle damage +30%, damage taken +10%.",
+      "—"
+    ],
+    [
+      "Last Stand",
+      "For every 10% HP lost, Lifesteal +5%, ATK +5%.",
+      "—"
+    ],
+    [
+      "Combo X2",
+      "At Combo X2, deals 1 extra hit with 300% normal attack damage.",
+      "—"
+    ],
+    [
+      "Combo X3",
+      "At Combo X3, deals 1 extra hit equal to 3% of target's max HP, capped at 30x hero's ATK.",
+      "—"
+    ],
+    [
+      "Stance · Insight",
+      "Normal attacks have a 30% chance to trigger a Super Crit.",
+      "Skill Locked"
+    ],
+    [
+      "Stance · Blood Sword",
+      "Combo causes immediate damage equal to 40% of Bleed damage.",
+      "Skill Locked"
+    ],
+    [
+      "Stance · Moon Sword",
+      "Super Sword Qi additionally deals 2% of target's max HP as Sword Qi damage, up to 20x hero's ATK.",
+      "Skill Locked"
+    ],
+    [
+      "Stance · Vengeance",
+      "Cannot perform normal or rage attacks, in-battle damage reduction +10%, counterattack count +1.",
+      "Skill Locked"
+    ],
+    [
+      "Stance · Water-Slicing Flow",
+      "During battle, 10% of hero's shield value is converted into ATK, up to 30% of self ATK.",
+      "Skill Locked"
+    ],
+    [
+      "Stance · Spear Soul",
+      "All Light Spears trigger 1 extra time, each dealing 5% of the target’s max HP as damage.",
+      "Skill Locked"
+    ],
+    [
+      "Bolt Mastery",
+      "In-battle Lightning damage +50%. In-battle damage -8%.",
+      "Skill Locked"
+    ],
+    [
+      "Secret Art · Surge",
+      "After each lightning strike, in-battle lightning damage +1%, stacks up to 30 times.",
+      "—"
+    ],
+    [
+      "Secret Art: Divine Lightning",
+      "In-battle lightning damage +20%. Lightning has a 35% chance to become Holy Lightning, which strikes the hero and grants a 6% shield and +5% lightning damage. Holy Lightning can trigger up to 5 times per turn.",
+      "Skill Locked"
+    ],
+    [
+      "Secret Art · Thunderclap",
+      "Each time 1 Thunderstorm is triggered, deals extra damage equal to 1% of the target’s max HP. Can trigger up to 15 times per turn.",
+      "Skill Locked"
+    ],
+    [
+      "Lightning Charge",
+      "Each time Lightning is cast 1 time, in-battle Lightning damage increases by 6%. This stacking effect resets once every 3 turns.",
+      "Skill Locked"
+    ],
+    [
+      "Ghostly Fuse",
+      "Deal +20% in-battle damage to targets affected by Burn.",
+      "Skill Locked"
+    ],
+    [
+      "Burn Mastery",
+      "In-battle Burn damage +50%. In-battle damage -8%.",
+      "Skill Locked"
+    ],
+    [
+      "Pyromancer",
+      "Burn stack has no upper limit, but in-battle Burn damage -10%.",
+      "Skill Locked"
+    ],
+    [
+      "Heat Explosion",
+      "In-battle burn damage +160%, max stack limit -5.",
+      "Skill Locked"
+    ],
+    [
+      "Ultimate: Ashen Envoy",
+      "For every 1 stack of Burn applied, the hero gains +10% fire damage in battle. Stacks, up to 10 times per turn, lasts until the end of the battle.",
+      "Skill Locked"
+    ],
+    [
+      "Ultimate: Flame Storm",
+      "For every 10 stacks of Burn, removes all Burn and unleashes Flame Storm, dealing massive damage plus 5% of the target’s max HP. Can trigger up to 2 times per turn.",
+      "Skill Locked"
+    ],
+    [
+      "Killing Freeze",
+      "Ice Spikes increase target's in-battle damage taken by 15%.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Mastery",
+      "In-battle Dagger damage +50%. In-battle damage dealt -8%.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Proficiency",
+      "Within the same turn, dagger damage gradually increases by 6%.",
+      "Skill Locked"
+    ],
+    [
+      "Secret Art · Return to Origin",
+      "All daggers learned in-battle are merged into 1 Super Dagger, which upgrades based on the number of learned daggers.",
+      "Skill Locked"
+    ],
+    [
+      "Secret Art · Blade Cyclone",
+      "After dagger hits, 20% chance to inflict Blade Whirlwind for 2 turns, each stack deals 5% of target's max HP as dagger damage, up to 30 times attack. Blade Whirlwind can stack 2 times.",
+      "Skill Locked"
+    ],
+    [
+      "Sword Aura Mastery",
+      "In-battle Sword Aura damage +50%. In-battle damage dealt -8%.",
+      "—"
+    ],
+    [
+      "Arcane Skill: Tempest",
+      "Sword Rain damage increased, and reduces enemy ATK by -20% and increases their in-battle Sword Aura damage taken by +25% for 1 turn.",
+      "Skill Locked"
+    ],
+    [
+      "Light Spear Mastery",
+      "In-battle Light Spear damage +50%. In-battle damage dealt -8%.",
+      "—"
+    ],
+    [
+      "Light Spear Shield",
+      "Gain a 10% shield after light spear hits",
+      "—"
+    ],
+    [
+      "Demonic Spear",
+      "Light spear becomes dark spear, this attack's damage gains extra ATK equal to 20% of the hero's shield",
+      "—"
+    ],
+    [
+      "Light Spear Earthquake",
+      "After every 2 counterattacks, the next Light Spear summon will trigger Quake, and Quake damage is greatly increased.",
+      "—"
+    ],
+    [
+      "Earthquake Stun",
+      "Earthquake has 20% chance to Stun the target.",
+      "Skill Locked"
+    ],
+    [
+      "Hardened+",
+      "In-battle damage reduction +8%.",
+      "—"
+    ],
+    [
+      "Enhanced Basic Attack+",
+      "In-battle normal attack damage +30%.",
+      "—"
+    ],
+    [
+      "Enhanced Rage Skill+",
+      "In-battle rage skill damage +40%.",
+      "—"
+    ],
+    [
+      "Combo Enhance+",
+      "In-battle combo damage +30%.",
+      "Skill Locked"
+    ],
+    [
+      "Enhanced Counterattack+",
+      "In-battle counterattack damage +30%.",
+      "Skill Locked"
+    ],
+    [
+      "Alchemist+",
+      "The Poison effect's Healing Reduction increases to 90%, and in-battle damage to Poisoned targets +25%.",
+      "—"
+    ],
+    [
+      "Berserker+",
+      "In-battle normal attack damage +80%. In-battle skill damage -60%.",
+      "—"
+    ],
+    [
+      "Spell Master+",
+      "In-battle skill damage +80%. In-battle normal attack damage -60%.",
+      "—"
+    ],
+    [
+      "Counter Mastery+",
+      "Counter +15%. Each counter increases self in-battle damage reduction by +3%, stacks up to 5 times.",
+      "—"
+    ],
+    [
+      "Rage Mastery+",
+      "In-battle rage skill damage +120%. Each use reduces rage skill damage by 30%, down to 0.",
+      "—"
+    ],
+    [
+      "Combo Bleeding+",
+      "Each normal attack and combo triggers 1 stack of Bleed.",
+      "—"
+    ],
+    [
+      "Bleeding Mastery+",
+      "Bleed in-battle damage +60%.",
+      "—"
+    ],
+    [
+      "Bolt Mastery+",
+      "In-battle lightning damage +75%. In-battle damage -12%.",
+      "Skill Locked"
+    ],
+    [
+      "Lightning Charge+",
+      "Each time Lightning is cast 1 time, in-battle Lightning damage increases by 10%. This stacking effect resets once every 3 turns.",
+      "Skill Locked"
+    ],
+    [
+      "Ghostly Fuse+",
+      "Deal +30% in-battle damage to targets affected by Burn.",
+      "Skill Locked"
+    ],
+    [
+      "Burn Mastery+",
+      "In-battle burn damage +75%. In-battle damage -12%.",
+      "Skill Locked"
+    ],
+    [
+      "Killing Freeze+",
+      "Ice Spikes cause enemies to take +25% more in-battle damage.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Mastery+",
+      "In-battle dagger damage +75%. In-battle damage -12%.",
+      "Skill Locked"
+    ],
+    [
+      "Dagger Proficiency+",
+      "Within the same turn, dagger damage gradually increases by 9%.",
+      "Skill Locked"
+    ],
+    [
+      "Sword Aura Mastery+",
+      "In-battle sword energy damage +75%. In-battle damage -12%.",
+      "—"
+    ],
+    [
+      "Light Spear Mastery+",
+      "In-battle light spear damage +75%. In-battle damage -12%.",
+      "—"
+    ],
+    [
+      "Light Spear Shield+",
+      "Gain a 15% shield after light spear hits",
+      "—"
+    ],
+    [
+      "Golden Egg",
+      "ATK and DEF +5% after each battle, up to 10 times.",
+      "—"
+    ],
+    [
+      "Werewolf!",
+      "Basic Attack Damage↑↑↑↑↑. Elemental DMG (Electric, Fire, Ice, Poison)↓↓↓↓.",
+      "—"
+    ],
+    [
+      "Vampire!",
+      "Life Steal Rate & Effect↑↑↑↑↑. Elemental DMG (Electric, Fire, Ice, Poison)↓↓↓↓.",
+      "—"
+    ],
+    [
+      "Wizard!",
+      "Skill DMG↑↑↑↑↑. Combo Rate & Counter Rate↓↓↓↓.",
+      "—"
+    ],
+    [
+      "Orc!",
+      "CRIT Rate & CRIT DMG↑↑↑↑↑. But unable to regain Rage.",
+      "—"
+    ],
+    [
+      "Succubus!",
+      "Elemental DMG (Electric, Fire, Ice, Poison)↑↑↑↑↑. Basic Attack DMG↓↓↓↓.",
+      "—"
+    ],
+    [
+      "Broken Bird Egg",
+      "At the end of each battle, ATK & DEF +3%, stacks up to 5 times.",
+      "—"
+    ],
+    [
+      "Gale Slash",
+      "Every 3 turns, summon the Great Tengu to deal normal attack damage equal to 500% of the main character’s attack to the enemy and increase the main character’s physical damage for 3 turns.",
+      "—"
+    ],
+    [
+      "Psystrike",
+      "Every 3 turns, summon the Great Tengu to deal normal attack damage equal to 500% of the main character’s attack to the enemy and grant a shield equal to 30% of max HP.",
+      "—"
+    ],
+    [
+      "Stormbreaker",
+      "Every 3 turns, summon the Great Tengu to deal normal attack damage equal to 500% of the main character’s attack to the enemy and additionally deal 5% of the target’s max HP as damage.",
+      "—"
+    ],
+    [
+      "Demon Seal",
+      "Every 3 turns, summon the Great Tengu to deal skill damage equal to 500% of the main character’s attack to the enemy and reduce the target’s Rage by 30.",
+      "—"
+    ],
+    [
+      "Twin Tribulation",
+      "Every 2 turns, summon the Great Tengu to deal skill damage equal to 500% of the main character’s attack to the enemy.",
+      "—"
+    ],
+    [
+      "Demon Slayer Style",
+      "Every 3 turns, summon the Great Tengu to deal skill damage equal to 500% of the main character’s attack to the enemy and deal 5% of the target’s max HP as damage.",
+      "—"
+    ],
+    [
+      "Silence Curse",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% physical damage based on the main character’s attack and inflict Silence and Weak on the enemy for 2 turns.",
+      "—"
+    ],
+    [
+      "Toxic Miasma",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% physical damage based on the main character’s attack to the enemy and inflict 3 stacks of Poison and Burn.",
+      "—"
+    ],
+    [
+      "Soul Devour",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% physical damage based on the main character’s attack to the enemy and additionally deal 5% of the target’s max HP as damage.",
+      "—"
+    ],
+    [
+      "Void Seal",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% skill damage based on the main character’s attack to the enemy and inflict Silence and Weak for 2 turns.",
+      "—"
+    ],
+    [
+      "Infernal Venom",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% skill damage based on the main character’s attack to the enemy and apply 5 stacks of Poison and Burn.",
+      "—"
+    ],
+    [
+      "Nether Reap",
+      "After casting a Rage Skill, summon the Crimson Queen to deal 350% skill damage based on the main character’s attack to the enemy and additionally deal 5% of the target’s max HP as damage.",
+      "—"
+    ],
+    [
+      "White-robed Wizard",
+      "Attack+15%, Health+15%.",
+      "—"
+    ],
+    [
+      "White-robed Wizard·Angel",
+      "Gain Angel transformation, Health+25%.",
+      "—"
+    ],
+    [
+      "White-robed Wizard·Demon",
+      "Gain Demon transformation, Attack+25%.",
+      "—"
+    ],
+    [
+      "Angel·Eternal Life",
+      "Under Angel transformation, gain Shield each turn.",
+      "—"
+    ],
+    [
+      "Angel·Divine Punishment",
+      "Under White Wizard·Angel transformation, weapon attacks reduce enemy damage↓, stacking up to 5 times.",
+      "—"
+    ],
+    [
+      "Angel·Enlightenment",
+      "White Wizard·Angel transformation, duration increased by +6 turns.",
+      "—"
+    ],
+    [
+      "Demon·Fearless",
+      "White Robe Wizard·Demon transformation, damage per turn↑, stacks up to 5 times.",
+      "—"
+    ],
+    [
+      "Demon·Abyss",
+      "At the start of battle, consume 50% of current health, converting it into a corresponding shield.",
+      "—"
+    ],
+    [
+      "Demon·Bloodthirsty",
+      "Under White Robe Wizard·Demon transformation, lifesteal rate and effect↑↑↑↑.",
+      "—"
+    ],
+    [
+      "Joker",
+      "Attack+15%, Health+15%.",
+      "—"
+    ],
+    [
+      "Joker·Bleeding",
+      "Each normal attack, combo, or counterattack triggers 1 layer of bleeding.",
+      "—"
+    ],
+    [
+      "Joker·Fireworks",
+      "Each skill hit has a chance to trigger poisoning, burning.",
+      "—"
+    ],
+    [
+      "Bleeding·Tear",
+      "Normal attacks, combos, and counterattacks immediately cause damage equal to 40% of bleeding damage.",
+      "—"
+    ],
+    [
+      "Bleeding·Wild Hunt",
+      "When sword energy, light spear, or dagger hits, there is also a chance to trigger 1 layer of bleeding.",
+      "—"
+    ],
+    [
+      "Bleeding·Blood Surge",
+      "Bleeding damage is significantly increased.",
+      "—"
+    ],
+    [
+      "Fireworks·Tear",
+      "When the rage skill hits, it immediately deals damage equivalent to 100% of poison and burn damage.",
+      "—"
+    ],
+    [
+      "Fireworks·Wild Hunt",
+      "Every 9 skill hits, deal 5% of the target's max HP as damage, can trigger up to 1 time per turn.",
+      "—"
+    ],
+    [
+      "Fireworks·Blood Surge",
+      "Poisoning, burning damage is significantly increased.",
+      "—"
+    ],
+    [
+      "Great Tengu",
+      "Every 3 turns, summon a Great Tengu, dealing 200% of the protagonist's attack power as damage to enemies.",
+      "—"
+    ],
+    [
+      "Great Tengu · Sword Drawing Technique",
+      "Great Tengu's damage is greatly increased, damage type changes to normal attack damage.",
+      "—"
+    ],
+    [
+      "Great Tengu · Ultimate Technique",
+      "Great Tengu's damage is greatly increased, damage type changes to skill damage.",
+      "—"
+    ],
+    [
+      "Sword Drawing Technique · Sword One",
+      "After Great Tengu is triggered, increases the protagonist's physical damage for 3 turns.",
+      "—"
+    ],
+    [
+      "Sword Drawing Technique · Sword Two",
+      "After Great Tengu is triggered, grants the protagonist a shield equal to 30% of max HP.",
+      "—"
+    ],
+    [
+      "Sword Drawing Technique · Sword Three",
+      "Great Tengu deals extra damage equal to 5% of target's max HP.",
+      "—"
+    ],
+    [
+      "Ultimate·Approach",
+      "After Great Tengu is triggered, reduces target's rage by 30.",
+      "—"
+    ],
+    [
+      "Ultimate·Soldier",
+      "Great Tengu's trigger cooldown -1.",
+      "—"
+    ],
+    [
+      "Ultimate·Fight",
+      "Great Tengu deals extra damage equal to 5% of target's max HP.",
+      "—"
+    ],
+    [
+      "Fallen Queen",
+      "After unleashing the rage skill, summon the Fallen Queen to deal 200% of the protagonist's attack power as damage to enemies.",
+      "—"
+    ],
+    [
+      "Fallen Queen",
+      "The Fallen Queen's damage is greatly increased, and the damage type changes to physical damage.",
+      "—"
+    ],
+    [
+      "Fallen Queen·War God",
+      "The Fallen Queen's damage is greatly increased, and the damage type changes to skill damage.",
+      "—"
+    ],
+    [
+      "Fallen Queen·Purgatory",
+      "The Fallen Queen silences and weakens enemies, lasting for 2 turns.",
+      "—"
+    ],
+    [
+      "Fallen Queen·Despair",
+      "The Fallen Queen inflicts 3 stacks of poison and burn on enemies.",
+      "—"
+    ],
+    [
+      "Fallen Queen·Revenge",
+      "The Fallen Queen deals an additional 5% of the target's maximum health as damage.",
+      "—"
+    ],
+    [
+      "Fallen Queen·Despair",
+      "The Fallen Queen inflicts 5 stacks of poison and burn on enemies.",
+      "—"
+    ],
+    [
+      "Werewolf!",
+      "In-battle normal attack damage +80%.",
+      "—"
+    ],
+    [
+      "Vampire!",
+      "Life Steal Rate +25%, Life Steal Effect +70%. In-battle Electric, Fire, Ice, and Poison Damage -20%.",
+      "—"
+    ],
+    [
+      "Wizard!",
+      "In-battle skill damage +80%. Combo rate -50%, Counter rate -50%.",
+      "—"
+    ],
+    [
+      "Succubus!",
+      "In-battle elemental damage (Electric, Fire, Ice, Poison) +80%. In-battle normal attack damage -40%.",
+      "—"
+    ],
+    [
+      "Crocodile Overlord",
+      "When Crocodile Overlord appears, protagonist's damage increases by +15%, lasting until Crocodile Overlord leaves",
+      "—"
+    ],
+    [
+      "GG Bond",
+      "Piggy Impact cooldown time -1.",
+      "—"
+    ],
+    [
+      "Wisps",
+      "When Wisps dies, the protagonist gains a shield equal to 30% of max HP.",
+      "—"
+    ],
+    [
+      "Big Horn",
+      "When Big Horn dies, protagonist's attack increases by +20%, lasting for 3 turns",
+      "—"
+    ],
+    [
+      "Brave Turtle",
+      "When Brave Turtle appears, the protagonist's damage reduction increases by +15%, lasting until Brave Turtle leaves the field.",
+      "—"
+    ],
+    [
+      "Catastrophe",
+      "When Catastrophe appears, the protagonist gains a shield equal to 45% of max HP",
+      "—"
+    ],
+    [
+      "King Kong",
+      "When riding King Kong, the Light Spear deals additional damage equal to 2% of the target's max HP",
+      "—"
+    ],
+    [
+      "Snail Immortal",
+      "When Snail Immortal appears, the protagonist gains a shield equal to 15% of max HP",
+      "—"
+    ],
+    [
+      "Bubble Newt",
+      "When Bubble Newt appears, the protagonist's damage increases by +20%, lasting until Bubble Newt leaves the field.",
+      "—"
+    ],
+    [
+      "Fangless",
+      "When Toothless dies, the protagonist's skill damage increases by +25%, lasting for 2 turns.",
+      "—"
+    ],
+    [
+      "Luminous Dragon",
+      "【Eternal Night Pulse】Damage increased by 100%",
+      "—"
+    ],
+    [
+      "Diego",
+      "When Diego appears or dies, the target gains 3 stacks of bleeding",
+      "—"
+    ],
+    [
+      "Sphinx",
+      "When 【Sphinx】 appears, gain a shield. 【Life Gaze】 resurrects mount and restores 100% health.",
+      "—"
+    ],
+    [
+      "Toffee",
+      "When Candy Smash appears, the protagonist's damage reduction increases by +20%, lasting until the battle ends.",
+      "—"
+    ],
+    [
+      "Roach",
+      "When Radish appears, protagonist's pet damage increases by +50%, lasting until Radish leaves",
+      "—"
+    ],
+    [
+      "Laputa",
+      "When Laputa appears, the protagonist's skill damage increases by +30%, lasting until Laputa leaves the field.",
+      "—"
+    ],
+    [
+      "Overlord Deer",
+      "At the start of battle, inflict 3 layers of poison, burn, and bleed on each enemy.",
+      "—"
+    ],
+    [
+      "Sea Hero",
+      "When Hero of the Sea enters or dies, the protagonist gains a shield equal to 20% of maximum health, battle-wide counter damage +30%, battle-wide Light Spear damage +30%, lasts for 2 turns",
+      "—"
+    ],
+    [
+      "Capytti Veyron",
+      "For the first 3 turns of battle, protagonist's battle-wide damage +30%, gains a shield equal to 10% of maximum health each turn",
+      "—"
+    ],
+    [
+      "Don Quixote Sugar",
+      "When Don Quixote enters or dies, enemies are stunned for 1 turn",
+      "—"
+    ],
+    [
+      "Flyer No.1",
+      "[Rocket Start] release interval -1, damage coefficient +100%.",
+      "—"
+    ],
+    [
+      "Sword of Victory Oath",
+      "At the start of battle, protagonist's attack increases by +20%, lasting for 2 turns",
+      "—"
+    ],
+    [
+      "Heaven's Mark",
+      "At the start of battle, Sword Intent stacks +5",
+      "—"
+    ],
+    [
+      "Demon Sword",
+      "After Light Spear, counter rate +2%, counter damage +6%, stacks 10, lasts till battle ends",
+      "—"
+    ],
+    [
+      "Spear of Thor",
+      "After [Thunderstorm] is unleashed, it reduces the damage dealt by enemies by 25%, lasting for 2 turns.",
+      "—"
+    ],
+    [
+      "Demonic Eye",
+      "After basic attack, reduce target's rage by -5, max 3 times per turn",
+      "—"
+    ],
+    [
+      "Zhanxian Flying Knife",
+      "Dagger critical rate +15%, dagger damage +50%",
+      "—"
+    ],
+    [
+      "Pan Gu Axe",
+      "After releasing 【thunder call】, it deals 10% max health damage to targets without mounts, not exceeding 100 times the protagonist's attack",
+      "—"
+    ],
+    [
+      "Xing Tian Axe",
+      "Burning stack limit +3, at the start of battle, apply 5 stacks of burning to the target",
+      "—"
+    ],
+    [
+      "Muramasa the Demon Blade",
+      "[Oni Bind] duration +1 turn, [Oni Bind] damage coefficient +50%",
+      "—"
+    ],
+    [
+      "Twin Blazing Blades",
+      "[Valiance] duration +1 turn. While in [Valiance] state, each Basic ATK increases the Main Character's ATK by +3%.",
+      "—"
+    ],
+    [
+      "Forbidden Arcane Tome",
+      "After [Meteorfall Forbidden Array], triggers 5 lightning strikes, with a 50% chance to inflict [Disarm] on enemies for 1 turn.",
+      "—"
+    ],
+    [
+      "Calorie Gatling",
+      "[Sweet Impact] Each instance of damage deals skill damage equal to 10% of the enemy's Max HP, not exceeding 60 times the Hero's ATK",
+      "—"
+    ],
+    [
+      "Gem - Wind Blade Cyclone",
+      "When sword aura hits, X% chance to release a blade whirlwind dealing X% DMG.",
+      "—"
+    ]
+  ],
+  "synergy_lv1": [
+    [
+      "Pig Smash Lv1",
+      "[Basic Attack Upgrade] evolves into [Piggy Slam], basic attack damage ↑, with a 5% chance to stun enemies",
+      "Synergy"
+    ],
+    [
+      "Drunken Fist Lv1",
+      "【Dodge】 evolves into 【Drunken Fist】, dodge chance ↑↑. After dodging, increase DMG by +10% for 1 turn",
+      "Synergy"
+    ],
+    [
+      "War Maniac Lv1",
+      "【Berserker】 evolves into 【War Maniac】, Basic Attack DMG ↑↑↑↑, Skill DMG ↓↓↓, for every 10% HP lost by the target, Basic Attack DMG increases by +2%",
+      "Synergy"
+    ],
+    [
+      "Undying Dragon Lv1",
+      "When HP < 50%, attack and defense greatly increase (↑↑), and normal attacks and ultimates deal an additional 50% of the hero’s attack as Dragon Flame damage.",
+      "Synergy"
+    ],
+    [
+      "Endless Battle Lv1",
+      "[Enhanced Counterattack] evolves into [Endless Battle]. Counterattack damage increases. After counterattacking, the protagonist's global counterattack damage is increased by +4%, stacking up to 5 layers.",
+      "Synergy"
+    ],
+    [
+      "Resonance Lv1",
+      "[Rage Skill Enhancement] evolves into [Resonance], Rage Skill damage increases. After releasing the Rage Skill, additionally deals dagger damage equal to 50% of the protagonist's attack",
+      "Synergy"
+    ],
+    [
+      "Mind Focus Lv1",
+      "[Tough Hide] evolves into [Mind Focus]. In-battle damage reduction +5%. Control immunity rate +3%.",
+      "Synergy"
+    ],
+    [
+      "Rage Burst Lv1",
+      "[Endangered Recovery] evolves into [Rage Burst] When HP first <30%, restore a small amount of HP each turn, Lifesteal Rate +3%, lasts for 3 turns.",
+      "Synergy"
+    ],
+    [
+      "First Aid Device Lv1",
+      "[Recovery Enhancement] evolves into [First Aid Device], increasing healing effect by 20%. When healing, gain a shield equal to 10% of the healing amount.",
+      "Synergy"
+    ],
+    [
+      "Optimist Lv1",
+      "[Tenacity] evolves into [Optimist], at the end of the action there is a 50% chance to recover 10% of lost HP.",
+      "Synergy"
+    ]
+  ]
+}

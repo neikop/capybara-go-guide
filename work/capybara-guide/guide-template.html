@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#203d32">
+<meta name="description" content="Sổ tay Capybara Go cho người nạp nhẹ: build Whisperer, đồ và pet, lộ trình 14 ngày, adventurer, skill tiếng Anh, gems và sự kiện.">
+<title>Capybara Go — Sổ tay nạp nhẹ</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Đến nội dung chính</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#overview"><span class="brand-icon" aria-hidden="true">C<span>•</span></span><span>CAPYBARA GO<small>SỔ TAY NẠP NHẸ</small></span></a>
+  <div class="nav-label">NỘI DUNG GUIDE <span>{{SECTION_COUNT}}</span></div>
+  <nav aria-label="Các mục hướng dẫn">{{NAV}}</nav>
+  <div class="sidebar-bottom"><span class="status-dot"></span> {{FOCUS}}<small>Tổng hợp từ MeowDB · {{UPDATED}}</small></div>
+</aside>
+<button class="backdrop" id="backdrop" aria-label="Đóng mục lục" hidden></button>
+<div class="workspace">
+  <header class="topbar">
+    <button id="menu-button" class="menu-button" aria-label="Mở mục lục" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <span class="breadcrumb">SỔ TAY <span aria-hidden="true">/</span> <span id="current-title">Bắt đầu từ đây</span></span>
+    <div class="global-search"><label class="sr-only" for="global-search">Tìm toàn bộ guide và skill</label><span aria-hidden="true">⌕</span><input id="global-search" type="search" autocomplete="off" placeholder="Tìm guide hoặc skill…" aria-controls="search-results" aria-expanded="false"><kbd>/</kbd></div>
+    <button class="print-button quiet" id="print-guide" title="In toàn bộ guide">In / PDF</button>
+  </header>
+  <div id="search-results" class="search-results" hidden><p id="search-status" role="status"></p><div id="search-items"></div></div>
+  <main id="main" tabindex="-1">
+    <div class="edition"><span class="pill">GUIDE {{VERSION}}</span><span>Build có điều kiện · Nguồn có thể tra lại</span></div>
+    {{SECTIONS}}
+    <div class="page-navigation"><a id="prev-section" href="#overview">← Mục trước</a><span id="page-position"></span><a id="next-section" href="#builds">Tiếp theo →</a></div>
+    <footer class="site-footer"><span>CAPYBARA GO / FIELD NOTES</span><span>Hướng dẫn cộng đồng · Không phải website chính thức của game</span></footer>
+  </main>
+</div>
+<noscript><style>.guide-section[hidden]{display:block}.skill-browser,.global-search,.page-navigation{display:none}.sidebar{position:static}.workspace{margin:0}</style><p>Để tìm/lọc skill, bật JavaScript hoặc mở bản WHISPERER_SKILL_TIER_LIST.md đi kèm.</p></noscript>
+<script id="skill-data" type="application/json">{{SKILLS}}</script>
+<script>{{JS}}</script>
+</body>
+</html>
